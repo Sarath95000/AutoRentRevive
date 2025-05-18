@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MpInWNK0RMs=",
+  "success": true,
+  "projectFilePath": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\EmployeeManagement.Models\\AutoRentRevive.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sarath.s\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

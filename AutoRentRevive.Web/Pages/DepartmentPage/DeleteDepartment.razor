@@ -1,0 +1,149 @@
+﻿@page "/deletedepartment/{EmployeeId:int}"
+@using AutoRentRevive.Models
+@using AutoRentRevive.Web.Services
+@using AutoRentRevive.Web.Services.DepartmentService
+@using AutoRentRevive.Web.Services.EmployeeService
+@inject NavigationManager Navigation
+@using AutoRentRevive.Web.BaseComponent.Actions
+@inherits AutoRentRevive.Web.Services.EmployeeService.EmployeeListBase
+@inject AutoRentRevive.Web.Services.EmployeeService.IEmployeeService EmployeeService
+
+
+
+<h3>Edit Employee</h3>
+
+@if (Employee != null)
+{
+    <EditForm Model="@Employee" OnValidSubmit="RemoveEmployee">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <InputText id="firstName" class="form-control small-input" @bind-Value="@Employee.FirstName" ReadOnly=IsReadOnly />
+            <ValidationMessage For="@(() => Employee.FirstName)" />
+        </div>
+
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <InputText id="lastName" class="form-control small-input" @bind-Value="@Employee.LastName" ReadOnly=IsReadOnly />
+            <ValidationMessage For="@(() => Employee.LastName)" />
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <InputText id="email" type="email" class="form-control small-input" @bind-Value="@Employee.Email" ReadOnly=IsReadOnly />
+            <ValidationMessage For="@(() => Employee.Email)" />
+        </div>
+
+        <div class="form-group">
+            <label for="dateOfBirth">Date Of Birth</label>
+            <InputDate id="dateOfBirth" class="form-control small-input" @bind-Value="@Employee.DateofBirth" ReadOnly=IsReadOnly />
+            <ValidationMessage For="@(() => Employee.DateofBirth)" />
+        </div>
+
+        <label>Gender</label>
+        <div>
+            <InputRadioGroup @bind-Value="@Employee.Gender">
+                <div class="form-check form-check-inline">
+                    <InputRadio class="form-check-input" Value="AutoRentRevive.Models.Gender.Male" disabled=IsReadOnly />
+                    <label class="form-check-label">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <InputRadio class="form-check-input" Value="AutoRentRevive.Models.Gender.Female" disabled=IsReadOnly />
+                    <label class="form-check-label">Female</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <InputRadio class="form-check-input" Value="AutoRentRevive.Models.Gender.Other" disabled=IsReadOnly />
+                    <label class="form-check-label">Others</label>
+                </div>
+            </InputRadioGroup>
+            <ValidationMessage For="@(() => Employee.Gender)" />
+        </div>
+
+        <div class="dropdown mb-3 small-input" style="position: relative;">
+            <label for="department">Department</label>
+            <button class="form-control text-start" @onclick="() => showOptions = !showOptions" disabled=IsReadOnly>
+                @(SelectedDepartment is not null ? $"{SelectedDepartment.Department_Code} - {SelectedDepartment.Department_Name}" : "-- Select Department --")
+            </button>
+
+            @if (showOptions)
+            {
+                <div class="dropdown-menu show" style="display: block; width: 100%; max-height: 200px; overflow-y: auto;">
+                    <table class="table table-sm table-hover mb-0" ReadOnly=IsReadOnly>
+                        <thead>
+                            <tr>
+                                <th>Code</th>
+                                <th>Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var dept in Departments)
+                            {
+                                <tr @onclick="@(() => { SelectedDepartment = dept; showOptions = false; })"
+                                style="cursor: pointer;">
+                                    <td>@dept.Department_Code</td>
+                                    <td>@dept.Department_Name</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </div>
+
+        <div class="form-group">
+            <label for="isactive">Active</label>
+            <InputCheckbox id="isactive" class="form-control form-check-input" style="width:5px;" @bind-Value="@Employee.IsActive" />
+            <ValidationMessage For="@(() => Employee.IsActive)" />
+        </div>
+
+        <hr />
+
+        <button class="btn btn-danger" type="submit">Delete</button>
+        <button class="btn btn-secondary ms-2" @onclick="Cancel">Cancel</button>
+    </EditForm>
+}
+else
+{
+    <p><em>Loading...</em></p>
+}
+
+@code {
+    [Parameter]
+    public int EmployeeId { get; set; }
+
+    bool showOptions = false;
+    bool IsReadOnly = true;
+
+    private Employee Employee;
+    private int SelectedDepartmentId;
+    private Department SelectedDepartment;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Ensure base class initializes Employees and Departments
+        await base.OnInitializedAsync();
+
+        // Now Employees should be populated, safe to access
+        Employee = Employees.FirstOrDefault(e => e.EmployeeId == EmployeeId);
+
+        if (Employee?.Department is not null)
+        {
+            SelectedDepartment = Employee.Department;
+            SelectedDepartmentId = SelectedDepartment.DepartmentId;
+        }
+    }
+
+    private void RemoveEmployee()
+    {
+        if (Employee != null)
+        {
+            EmployeeService.DeleteEmployee(Employee);
+        }
+    }
+
+    private void Cancel()
+    {
+        Navigation.NavigateTo("/EmployeeBrowse");
+    }
+}

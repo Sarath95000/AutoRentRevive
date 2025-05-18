@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "Start Debugging",
+    "Projects": [
+      {
+        "Path": "AutoRentRevive.Web\\AutoRentRevive.Web.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "AutoRentRevive.API\\AutoRentRevive.API.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      }
+    ]
+  },
+  {
+    "Name": "Start Without Debugging",
+    "Projects": [
+      {
+        "Path": "AutoRentRevive.Web\\AutoRentRevive.Web.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "AutoRentRevive.API\\AutoRentRevive.API.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": "https"
+      }
+    ]
+  }
+]

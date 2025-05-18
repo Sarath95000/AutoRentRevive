@@ -1,0 +1,71 @@
+﻿@using AutoRentRevive.Web.Services
+
+<div class="top-row ps-3 navbar navbar-dark bg-white custom-navbar-width">
+    <div class="container-fluid bg-white">
+        @* <a class="navbar-brand text-black" href="/dashboard">Auto Rent Revive</a> *@
+
+        <a class="navbar-brand text-black" href="/dashboard">
+            <img src="/mainlogo.png" alt="Auto Rent Revive Logo" height="30">
+        </a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+@if (keys.IsTransaction)
+{
+    <div class="@NavMenuCssClass nav-scrollable custom-navbar-width" @onclick="ToggleNavMenu">
+        <nav class="flex-column">
+
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="/dashboard" Match="NavLinkMatch.All">
+                    <span class="oi oi-home" aria-hidden="true"></span> Home
+                </NavLink>
+            </div>
+
+            <!-- Employee Dropdown -->
+            <div class="nav-item px-3 dropdown-hover">
+                <NavLink class="nav-link dropdown-toggle" role="button">
+                    <span class="oi oi-people" aria-hidden="true"></span> Employee
+                </NavLink>
+                <div class="dropdown-menu show-on-hover" style=" background-color: #2E0C4A; color:White">
+                    <NavLink class="dropdown-item" href="/createemployee">
+                        <span class="oi oi-plus" aria-hidden="true"></span> Create Employee
+                    </NavLink>
+                    <NavLink class="dropdown-item" href="/EmployeeBrowse">
+                        <span class="oi oi-list" aria-hidden="true"></span> View Employee
+                    </NavLink>
+                </div>
+            </div>
+            <!-- Department Dropdown -->
+            <div class="nav-item px-3 dropdown-hover">
+                <NavLink class="nav-link dropdown-toggle" role="button">
+                    <span class="oi oi-chat" aria-hidden="true"></span> Departments
+                </NavLink>
+                <div class="dropdown-menu show-on-hover" style=" background-color: #2E0C4A; color:White">
+                    <NavLink class="dropdown-item" href="/createdepartment">
+                        <span class="oi oi-plus" aria-hidden="true"></span> Create Department
+                    </NavLink>
+                    <NavLink class="dropdown-item" href="/DepartmentBrowse">
+                        <span class="oi oi-list" aria-hidden="true"></span> View Departments
+                    </NavLink>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+}
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private UserInerfaceServiceKeys keys = new UserInerfaceServiceKeys();
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

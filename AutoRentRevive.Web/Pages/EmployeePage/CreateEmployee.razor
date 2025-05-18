@@ -1,0 +1,159 @@
+﻿@page "/createemployee"
+@inject NavigationManager Navigation
+@using AutoRentRevive.Models
+@using AutoRentRevive.Web.BaseComponent.Actions
+@using AutoRentRevive.Web.Services
+@using AutoRentRevive.Web.Services.EmployeeService
+@inherits AutoRentRevive.Web.Services.EmployeeService.EmployeeListBase
+@* @inject AutoRentRevive.Web.Services.DepartmentService.DepartmentListBase
+ *@
+
+<h3>Create Employee</h3>
+
+@if (isSuccess)
+{
+    <div class="alert alert-success slide-in">
+        Employee added successfully!
+        <a href="/EmployeeBrowse">View Employees</a>
+    </div>
+}
+else if (FieldValidationMessage.Any())
+{
+         <div class="alert alert-danger slide-in">
+             Error
+    @foreach (var message in FieldValidationMessage)
+    {
+        <ul>
+                <li>@message</li>
+        </ul>
+    }
+         </div>
+}
+
+<EditForm Model="@Employee" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group mb-3">
+        <label for="firstName">First Name</label>
+        <InputText id="firstName" class="form-control small-input" @bind-Value="@Employee.FirstName" />
+        <ValidationMessage For="@(() => Employee.FirstName)" />
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="lastName">Last Name</label>
+        <InputText id="lastName" class="form-control small-input" @bind-Value="@Employee.LastName" />
+        <ValidationMessage For="@(() => Employee.LastName)" />
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="email">Email</label>
+        <InputText id="email" type="email" class="form-control small-input" @bind-Value="@Employee.Email" />
+        <ValidationMessage For="@(() => Employee.Email)" />
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="dateOfBirth">Date Of Birth</label>
+        <InputDate id="dateOfBirth" class="form-control small-input" @bind-Value="@Employee.DateofBirth" />
+        <ValidationMessage For="@(() => Employee.DateofBirth)" />
+    </div>
+
+    <label>Gender</label>
+    <div class="mb-3">
+        <InputRadioGroup @bind-Value="@Employee.Gender">
+            <div class="form-check form-check-inline">
+                <InputRadio class="form-check-input" Value="AutoRentRevive.Models.Gender.Male" />
+                <label class="form-check-label">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <InputRadio class="form-check-input" Value="AutoRentRevive.Models.Gender.Female" />
+                <label class="form-check-label">Female</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <InputRadio class="form-check-input" Value="AutoRentRevive.Models.Gender.Other" />
+                <label class="form-check-label">Others</label>
+            </div>
+        </InputRadioGroup>
+        <ValidationMessage For="@(() => Employee.Gender)" />
+    </div>
+
+    <div class="dropdown mb-3 small-input" style="position: relative;">
+        <label for="department">Department</label>
+        <button type="button" class="form-control text-start" @onclick="() => showOptions = !showOptions">
+            @(SelectedDepartment is not null ? $"{SelectedDepartment.Department_Code} - {SelectedDepartment.Department_Name}" : "-- Select Department --")
+        </button>
+
+        @if (showOptions)
+        {
+            <div class="dropdown-menu show" style="display: block; width: 100%; max-height: 200px; overflow-y: auto;">
+                <table class="table table-sm table-hover mb-0">
+                    <thead>
+                        <tr>
+                            <th class="grid-header-default">Code</th>
+                            <th class="grid-header-default">Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var dept in Departments.Where(dept => dept.IsActive))
+                        {
+                            <tr @onclick="@(() => { SelectedDepartment = dept; showOptions = false; })"
+                            style="cursor: pointer;">
+                                <td>@dept.Department_Code</td>
+                                <td>@dept.Department_Name</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+
+    <hr class="mb-3" />
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</EditForm>
+
+@code {
+    bool showOptions = false;
+    private Employee Employee = new();
+    private EmployeeActions employeeActions = new();
+    private int SelectedDepartmentId;
+    Department SelectedDepartment;
+    private bool isSuccess = false;  // Flag to handle success message visibility
+    private List<String> FieldValidationMessage = new();
+
+    private async void HandleValidSubmit()
+    {
+        FieldValidationMessage.Clear();
+        if (Employee.FirstName == null || Employee.Email == null || Employee.DateofBirth == null || SelectedDepartment == null)
+        {
+            if (Employee.FirstName == null)
+            {
+                FieldValidationMessage.Add("First Name is required.");
+            }
+            if (Employee.Email == null)
+            {
+                FieldValidationMessage.Add("Email is required.");
+            }
+            if (Employee.DateofBirth == null)
+            {
+                FieldValidationMessage.Add("Date of Birth is required.");
+            }
+            if(SelectedDepartment == null)
+            {
+                FieldValidationMessage.Add("Department is required.");
+            }
+            isSuccess = false;
+        }
+        else 
+        { 
+            if (Employee is not null)
+            {
+                Employee.DepartmentId = SelectedDepartment.DepartmentId;
+                var result = await EmployeeService.AddEmployee(Employee);
+                isSuccess = true;  
+                Employee = new Employee();
+            } 
+        }
+    }
+}

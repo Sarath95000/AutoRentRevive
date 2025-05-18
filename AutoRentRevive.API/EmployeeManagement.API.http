@@ -1,0 +1,6 @@
+@AutoRentRevive.API_HostAddress = http://localhost:5171
+
+GET {{AutoRentRevive.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

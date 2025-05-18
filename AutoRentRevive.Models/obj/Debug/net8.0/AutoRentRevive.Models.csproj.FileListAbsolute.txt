@@ -1,0 +1,11 @@
+D:\MyProject\EmployeeManagement\AutoRentRevive\AutoRentRevive.Models\bin\Debug\net8.0\AutoRentRevive.Models.deps.json
+D:\MyProject\EmployeeManagement\AutoRentRevive\AutoRentRevive.Models\bin\Debug\net8.0\AutoRentRevive.Models.dll
+D:\MyProject\EmployeeManagement\AutoRentRevive\AutoRentRevive.Models\bin\Debug\net8.0\AutoRentRevive.Models.pdb
+D:\MyProject\EmployeeManagement\AutoRentRevive\AutoRentRevive.Models\obj\Debug\net8.0\AutoRentRevive.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProject\EmployeeManagement\AutoRentRevive\AutoRentRevive.Models\obj\Debug\net8.0\AutoRentRevive.Models.AssemblyInfoInputs.cache
+D:\MyProject\EmployeeManagement\AutoRentRevive\AutoRentRevive.Models\obj\Debug\net8.0\AutoRentRevive.Models.AssemblyInfo.cs
+D:\MyProject\EmployeeManagement\AutoRentRevive\AutoRentRevive.Models\obj\Debug\net8.0\AutoRentRevive.Models.csproj.CoreCompileInputs.cache
+D:\MyProject\EmployeeManagement\AutoRentRevive\AutoRentRevive.Models\obj\Debug\net8.0\AutoRentRevive.Models.dll
+D:\MyProject\EmployeeManagement\AutoRentRevive\AutoRentRevive.Models\obj\Debug\net8.0\refint\AutoRentRevive.Models.dll
+D:\MyProject\EmployeeManagement\AutoRentRevive\AutoRentRevive.Models\obj\Debug\net8.0\AutoRentRevive.Models.pdb
+D:\MyProject\EmployeeManagement\AutoRentRevive\AutoRentRevive.Models\obj\Debug\net8.0\ref\AutoRentRevive.Models.dll

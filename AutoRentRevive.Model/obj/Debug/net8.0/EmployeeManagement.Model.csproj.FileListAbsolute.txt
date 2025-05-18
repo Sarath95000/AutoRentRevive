@@ -1,0 +1,4 @@
+D:\MyProject\EmployeeManagement\EmployeeManagementSystem\EmployeeManagement.Model\obj\Debug\net8.0\EmployeeManagement.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProject\EmployeeManagement\EmployeeManagementSystem\EmployeeManagement.Model\obj\Debug\net8.0\EmployeeManagement.Model.AssemblyInfoInputs.cache
+D:\MyProject\EmployeeManagement\EmployeeManagementSystem\EmployeeManagement.Model\obj\Debug\net8.0\EmployeeManagement.Model.AssemblyInfo.cs
+D:\MyProject\EmployeeManagement\EmployeeManagementSystem\EmployeeManagement.Model\obj\Debug\net8.0\EmployeeManagement.Model.csproj.CoreCompileInputs.cache

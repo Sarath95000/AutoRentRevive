@@ -1,0 +1,151 @@
+﻿@page "/createdepartment"
+@inject NavigationManager Navigation
+@using AutoRentRevive.Models
+@using AutoRentRevive.Web.BaseComponent.Actions
+@using AutoRentRevive.Web.Services.DepartmentService
+@inherits AutoRentRevive.Web.Services.DepartmentService.DepartmentListBase
+
+
+<h3>Create Department</h3>
+
+@if (isSuccess)
+{
+    <div class="alert alert-success slide-in">
+        Department added successfully!
+        <a href="/DepartmentBrowse">View Departments</a>
+    </div>
+}
+else if (FieldValidationMessage.Any())
+{
+         <div class="alert alert-danger slide-in">
+             Error
+    @foreach (var message in FieldValidationMessage)
+    {
+        <ul>
+                <li>@message</li>
+        </ul>
+    }
+         </div>
+}
+
+<EditForm Model="@Department" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group mb-3">
+        <label for="departmentName">Department Name</label>
+        <InputText id="departmentName" class="form-control small-input" @bind-Value="@Department.Department_Name" />
+        <ValidationMessage For="@(() => Department.Department_Name)" />
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="departmentCode">Department Code</label>
+        <InputText id="departmentCode" class="form-control small-input" @bind-Value="@Department.Department_Code" />
+        <ValidationMessage For="@(() => Department.Department_Code)" />
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="groupName">Group Name</label>
+        <InputText id="groupName" class="form-control small-input" @bind-Value="@Department.GroupName" />
+        <ValidationMessage For="@(() => Department.GroupName)" />
+    </div>
+
+@*     <div class="form-group mb-3">
+        <label for="email">Email</label>
+        <InputText id="email" type="email" class="form-control small-input" @bind-Value="@Department.Email" />
+        <ValidationMessage For="@(() => Department.Email)" />
+    </div> *@
+
+@*     <div class="form-group mb-3">
+        <label for="dateOfBirth">Date Of Birth</label>
+        <InputDate id="dateOfBirth" class="form-control small-input" @bind-Value="@Department.DateofBirth" />
+        <ValidationMessage For="@(() => Department.DateofBirth)" />
+    </div> *@
+
+@*     <label>Gender</label>
+    <div class="mb-3">
+        <InputRadioGroup @bind-Value="@Employee.Gender">
+            <div class="form-check form-check-inline">
+                <InputRadio class="form-check-input" Value="AutoRentRevive.Models.Gender.Male" />
+                <label class="form-check-label">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <InputRadio class="form-check-input" Value="AutoRentRevive.Models.Gender.Female" />
+                <label class="form-check-label">Female</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <InputRadio class="form-check-input" Value="AutoRentRevive.Models.Gender.Other" />
+                <label class="form-check-label">Others</label>
+            </div>
+        </InputRadioGroup>
+        <ValidationMessage For="@(() => Employee.Gender)" />
+    </div>
+
+    <div class="dropdown mb-3 small-input" style="position: relative;">
+        <label for="department">Department</label>
+        <button type="button" class="form-control text-start" @onclick="() => showOptions = !showOptions">
+            @(SelectedDepartment is not null ? $"{SelectedDepartment.Department_Code} - {SelectedDepartment.Department_Name}" : "-- Select Department --")
+        </button>
+
+        @if (showOptions)
+        {
+            <div class="dropdown-menu show" style="display: block; width: 100%; max-height: 200px; overflow-y: auto;">
+                <table class="table table-sm table-hover mb-0">
+                    <thead>
+                        <tr>
+                            <th class="grid-header-default">Code</th>
+                            <th class="grid-header-default">Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var dept in Departments.Where(dept => dept.IsActive))
+                        {
+                            <tr @onclick="@(() => { SelectedDepartment = dept; showOptions = false; })"
+                            style="cursor: pointer;">
+                                <td>@dept.Department_Code</td>
+                                <td>@dept.Department_Name</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+ *@
+    <hr class="mb-3" />
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</EditForm>
+
+@code {
+    bool showOptions = false;
+    private Department Department = new();
+    private bool isSuccess = false;  
+    private List<String> FieldValidationMessage = new();
+
+    private async void HandleValidSubmit()
+    {
+        FieldValidationMessage.Clear();
+        if (Department.Department_Name == null || Department.Department_Code == null)
+        {
+            if (Department.Department_Name == null)
+            {
+                FieldValidationMessage.Add("Deparment Name is required.");
+            }
+            if (Department.Department_Code == null)
+            {
+                FieldValidationMessage.Add("Department Code is required.");
+            }
+            isSuccess = false;
+        }
+        else 
+        { 
+            if (Department is not null)
+            {
+                var result = await DepartmentService.AddDepartment(Department);
+                isSuccess = true;  
+                Department = new Department();
+            } 
+        }
+    }
+}

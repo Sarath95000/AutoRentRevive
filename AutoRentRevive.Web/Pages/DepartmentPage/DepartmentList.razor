@@ -1,0 +1,99 @@
+﻿@page "/departmentlist"
+@inject NavigationManager Navigation
+@using AutoRentRevive.Models
+@using AutoRentRevive.Web.BaseComponent.Actions
+@using AutoRentRevive.Web.Services
+@using AutoRentRevive.Web.Services.EmployeeService
+@using AutoRentRevive.Web.Services.EmployeeService
+
+<h3>Employees</h3>
+
+<div class="input-group mb-3">
+    <input class="form-control" placeholder="Search employees..." @bind="searchText" />
+    <button class="btn btn-primary" @onclick="SearchEmployees">Search</button>
+</div>
+
+@if (FilteredEmployees == null || FilteredEmployees.Count == 0)
+{
+    <p>No Employees found.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Active</th>
+                <th class="text-center">Edit</th>
+                <th class="text-center">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Employee in FilteredEmployees)
+            {
+                <tr>
+                    <td>@Employee.EmployeeId</td>
+                    <td>@Employee.FirstName @Employee.LastName</td>
+                    <td>@Employee.Email</td>
+                    <td>@Employee.IsActive</td>
+                    <td class="action-buttons text-center">
+                        <a class="btn btn-primary btn-sm" @onclick="@(() => EditEmployee(Employee))">Edit @Employee.FirstName</a>
+                    </td>
+                    <td class="action-buttons text-center">
+                        <a class="btn btn-danger btn-sm" @onclick="@(() => DeleteEmployee(Employee))">Delete @Employee.FirstName</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private string searchText = string.Empty;
+    private List<Employee> FilteredEmployees = new();
+
+    protected override void OnInitialized()
+    {
+        LoadAllEmployees();
+    }
+
+    private void LoadAllEmployees()
+    {            /*-------------------------------------------------------------- Need A Rewrite -------------------------------------------------------------- */
+
+        // FilteredEmployees = EmployeeService.Employees
+        //     .Where(e => e.IsActive)
+        //     .ToList();
+    }
+
+    private void SearchEmployees()
+    {
+        if (string.IsNullOrWhiteSpace(searchText))
+        {
+            LoadAllEmployees();
+        }
+        else
+        {
+            /*-------------------------------------------------------------- Need A Rewrite -------------------------------------------------------------- */
+            // FilteredEmployees = EmployeeService.Employees
+            //                     .Where(e => e.IsActive &&
+            //                     (
+            //                         e.FirstName.Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
+            //                         e.LastName.Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
+            //                         (int.TryParse(searchText, out int id) && e.EmployeeId == id)
+            //                     )).ToList();
+
+        }
+    }
+
+    private void DeleteEmployee(Employee employee)
+    {
+        Navigation.NavigateTo($"/deleteemployee/{employee.EmployeeId}");
+    }
+
+    private void EditEmployee(Employee employee)
+    {
+        Navigation.NavigateTo($"/editemployee/{employee.EmployeeId}");
+    }
+}

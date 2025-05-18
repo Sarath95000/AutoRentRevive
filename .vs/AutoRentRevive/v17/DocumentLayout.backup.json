@@ -1,0 +1,320 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\pages\\employeepage\\deleteemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\pages\\employeepage\\deleteemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\pages\\departmentpage\\departmentbrowseform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\pages\\departmentpage\\departmentbrowseform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE009945-ECAE-443E-A3C7-B32323522933}|AutoRentRevive.API\\AutoRentRevive.API.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE009945-ECAE-443E-A3C7-B32323522933}|AutoRentRevive.API\\AutoRentRevive.API.csproj|solutionrelative:autorentrevive.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\pages\\employeepage\\employeebrowseform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\pages\\employeepage\\employeebrowseform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\pages\\employeepage\\createemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\pages\\employeepage\\createemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\pages\\home\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\pages\\home\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\pages\\home\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\pages\\home\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\services\\userinerfaceservicekeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\services\\userinerfaceservicekeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\shared\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\shared\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|d:\\myproject\\employeemanagement\\autorentrevive\\autorentrevive.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E6401559-D18C-4BEB-A93B-AB538A299834}|AutoRentRevive.Web\\AutoRentRevive.Web.csproj|solutionrelative:autorentrevive.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeleteEmployee.razor",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\EmployeePage\\DeleteEmployee.razor",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\Pages\\EmployeePage\\DeleteEmployee.razor",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\EmployeePage\\DeleteEmployee.razor",
+              "RelativeToolTip": "AutoRentRevive.Web\\Pages\\EmployeePage\\DeleteEmployee.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T15:19:00.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentBrowseForm.razor",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\DepartmentPage\\DepartmentBrowseForm.razor",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\Pages\\DepartmentPage\\DepartmentBrowseForm.razor",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\DepartmentPage\\DepartmentBrowseForm.razor",
+              "RelativeToolTip": "AutoRentRevive.Web\\Pages\\DepartmentPage\\DepartmentBrowseForm.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T15:28:53.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateEmployee.razor",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\EmployeePage\\CreateEmployee.razor",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\Pages\\EmployeePage\\CreateEmployee.razor",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\EmployeePage\\CreateEmployee.razor",
+              "RelativeToolTip": "AutoRentRevive.Web\\Pages\\EmployeePage\\CreateEmployee.razor",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T15:19:39.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\Pages\\Error.cshtml",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\Error.cshtml",
+              "RelativeToolTip": "AutoRentRevive.Web\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T15:19:23.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\Shared\\NavMenu.razor",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "AutoRentRevive.Web\\Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T15:45:50.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\Shared\\MainLayout.razor",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "AutoRentRevive.Web\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T16:22:55.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeBrowseForm.razor",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\EmployeePage\\EmployeeBrowseForm.razor",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\Pages\\EmployeePage\\EmployeeBrowseForm.razor",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\EmployeePage\\EmployeeBrowseForm.razor",
+              "RelativeToolTip": "AutoRentRevive.Web\\Pages\\EmployeePage\\EmployeeBrowseForm.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T15:22:23.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.API\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "AutoRentRevive.API\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.API\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "AutoRentRevive.API\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T15:27:17.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\appsettings.json",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\appsettings.json",
+              "RelativeToolTip": "AutoRentRevive.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-10T16:34:35.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Program.cs",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\Program.cs",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Program.cs",
+              "RelativeToolTip": "AutoRentRevive.Web\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwDQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T16:32:33.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\Pages\\Dashboard.razor",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "AutoRentRevive.Web\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T16:32:14.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\App.razor",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\App.razor",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\App.razor",
+              "RelativeToolTip": "AutoRentRevive.Web\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T16:31:51.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Component.razor",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Shared\\Component.razor",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\Shared\\Component.razor",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Shared\\Component.razor",
+              "RelativeToolTip": "AutoRentRevive.Web\\Shared\\Component.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T15:59:26.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserInerfaceServiceKeys.cs",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Services\\UserInerfaceServiceKeys.cs",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\Services\\UserInerfaceServiceKeys.cs",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Services\\UserInerfaceServiceKeys.cs",
+              "RelativeToolTip": "AutoRentRevive.Web\\Services\\UserInerfaceServiceKeys.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:55:54.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\Home\\Home.razor",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\Pages\\Home\\Home.razor",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\Home\\Home.razor",
+              "RelativeToolTip": "AutoRentRevive.Web\\Pages\\Home\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T15:51:25.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\_Imports.razor",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\_Imports.razor",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\_Imports.razor",
+              "RelativeToolTip": "AutoRentRevive.Web\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T16:34:45.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.razor",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\Home\\Login.razor",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\Pages\\Home\\Login.razor",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\Pages\\Home\\Login.razor",
+              "RelativeToolTip": "AutoRentRevive.Web\\Pages\\Home\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T17:09:20.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "AutoRentRevive.Web\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "AutoRentRevive.Web\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAAKMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-10T15:46:11.301Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

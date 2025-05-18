@@ -1,0 +1,132 @@
+﻿@page "/home"
+@layout MainLayout
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+           @*  <img src="/mainlogo.png" alt="Logo" width="100" class="d-inline-block align-text-top"> *@Auto Rent Revive
+        </a>
+        <div class="d-flex">
+            <a class="btn btn-outline-primary" href="/Login">Login</a>
+        </div>
+    </div>
+</nav>
+<!-- Spacer for navbar -->
+<div style="height: 70px;"></div>
+<header class="bg-primary text-white text-center py-5 mb-5" data-aos="fade-down">
+    <div class="container">
+        <h1 class="display-4">Auto Equipment Rental Management</h1>
+        <p class="lead">Revolutionizing rental operations with our all-in-one cloud-based platform.</p>
+        <a class="btn btn-light btn-lg mt-3" href="#about">Learn More</a>
+    </div>
+</header>
+<section id="about" class="container mb-5" data-aos="fade-up">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <h2>About Our Product</h2>
+            <p class="text-muted"> Auto Rent Revive is an intelligent Rental Management System built to streamline Auto Equipment rentals, maintenance, customer handling, and reporting. </p>
+            <ul>
+                <li>Real-time booking & availability management</li>
+                <li>Maintenance scheduling and tracking</li>
+                <li>Digital contracts and document management</li>
+                <li>Integrated billing and payment systems</li>
+                <li>Comprehensive analytics and reporting</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <img src="https://as2.ftcdn.net/v2/jpg/08/47/02/91/1000_F_847029169_XmbOF22u5633lY7pUK5wZ6CALm6cd7bA.jpg" class="img-fluid rounded shadow" alt="Rental System Preview">
+        </div>
+    </div>
+</section>
+<section class="bg-light py-5" id="features" data-aos="fade-right">
+    <div class="container text-center">
+        <h2 class="mb-4">Key Features</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <h5 class="bg-primary text-white">Fleet Management</h5>
+                <p>Track and manage vehicles with ease, including service history and status.</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5 class="bg-primary text-white">Customer Portal</h5>
+                <p>Enable customers to view rentals, make payments, and contact support online.</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5 class="bg-primary text-white">Reporting Dashboard</h5>
+                <p>Gain actionable insights through performance and usage metrics.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container py-5" id="testimonials" data-aos="fade-left">
+    <h2 class="text-center mb-5">What Our Clients Say</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <blockquote class="blockquote">
+                <p class="mb-0">"RentSmart helped reduce our manual work by 70%. The system is intuitive and powerful!"</p>
+                <footer class="blockquote-footer">Kumar R., SwiftRides</footer>
+            </blockquote>
+        </div>
+        <div class="col-md-6">
+            <blockquote class="blockquote">
+                <p class="mb-0">"Highly recommend for any rental business looking to modernize operations."</p>
+                <footer class="blockquote-footer">Priya M., AutoGo Rentals</footer>
+            </blockquote>
+        </div>
+    </div>
+</section>
+<section class="bg-light py-5" id="pricing" data-aos="zoom-in">
+    <div class="container text-center">
+        <h2 class="mb-4">Pricing Plans</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Starter</h5>
+                        <p class="card-text">$29/month <br />Up to 50 Vehicles </p>
+                        <a href="#" class="btn btn-primary">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Pro</h5>
+                        <p class="card-text">$79/month <br />Unlimited Vehicles + Reports </p>
+                        <a href="#" class="btn btn-outline-primary">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container py-5" id="contact" data-aos="fade-up">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+</section>
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+        <p>© 2025 RentSmart. All rights reserved.</p>
+    </div>
+</footer>
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>

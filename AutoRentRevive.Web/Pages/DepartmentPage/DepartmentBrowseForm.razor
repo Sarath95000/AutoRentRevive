@@ -1,0 +1,60 @@
+﻿@page "/DepartmentBrowse"
+@inherits AutoRentRevive.Web.Services.DepartmentService.DepartmentListBase
+
+<h3>Employee Browse Form</h3>
+
+<div class="input-group mb-3">
+    <input class="form-control" placeholder="Search Deparment..." @bind="searchText" @onkeydown="@HandleEnter" />
+    <button class="btn btn-primary" @onclick="SearchDepartment">Search</button>
+</div>
+
+@if (Departments == null || !FilteredDepartments.Any())
+{
+    <p>No Employees found.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="grid-header-default">Id</th>
+                <th class="grid-header-default">Name</th>
+                <th class="grid-header-default">Code</th>
+                <th class ="grid-header-default">Active</th>
+                <th class="grid-header-default text-center">Edit</th>
+                <th class="grid-header-default text-center">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var department in FilteredDepartments)
+            {
+                <tr class="@(department.IsActive ? "" : "text-danger")">
+                    <td>@department.DepartmentId</td>
+                    <td>@department.Department_Name </td>
+                    <td>@department.Department_Code</td>
+                    <td>@department.IsActive</td>
+                    <td class="text-center">
+                        <div class="action-buttons">
+                            <button class="btn btn-primary btn-sm" @onclick="@(() => EditDepartment(department))">Edit @department.Department_Code</button>
+                        </div>
+                    </td>
+                    <td class="text-center">
+                        <div class="action-buttons">
+                            <button class="btn btn-sm @(department.IsActive ? "btn-danger":"btn-success" )" @onclick="@(() => DeleteDepartment(department))">@(department.IsActive ? $"Delete {@department.Department_Code}" : $"Activate {@department.Department_Code}")</button>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private void HandleEnter(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            SearchDepartment();
+        }
+    }
+}

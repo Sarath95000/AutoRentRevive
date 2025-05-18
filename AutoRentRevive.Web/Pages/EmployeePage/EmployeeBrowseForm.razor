@@ -1,0 +1,60 @@
+﻿@page "/EmployeeBrowse"
+@inherits AutoRentRevive.Web.Services.EmployeeService.EmployeeListBase
+
+<h3>Employee Browse Form</h3>
+
+<div class="input-group mb-3">
+    <input class="form-control" placeholder="Search employees..." @bind="searchText" @onkeydown="@HandleEnter" />
+    <button class="btn btn-primary" @onclick="SearchEmployees">Search</button>
+</div>
+
+@if (Employees == null || !FilteredEmployees.Any())
+{
+    <p>No Employees found.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="grid-header-default">Id</th>
+                <th class="grid-header-default">Name</th>
+                <th class="grid-header-default">Email</th>
+                <th class ="grid-header-default">Active</th>
+                <th class="grid-header-default text-center">Edit</th>
+                <th class="grid-header-default text-center">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Employee in FilteredEmployees)
+            {
+                <tr class="@(Employee.IsActive ? "" : "text-danger")">
+                    <td>@Employee.EmployeeId</td>
+                    <td>@Employee.FirstName @Employee.LastName</td>
+                    <td>@Employee.Email</td>
+                    <td>@Employee.IsActive</td>
+                    <td class="text-center">
+                        <div class="action-buttons">
+                            <button class="btn btn-primary btn-sm" @onclick="@(() => EditEmployee(Employee))">Edit @Employee.FirstName</button>
+                        </div>
+                    </td>
+                    <td class="text-center">
+                        <div class="action-buttons">
+                            <button class="btn btn-sm @(Employee.IsActive ? "btn-danger":"btn-success" )" @onclick="@(() => DeleteEmployee(Employee))">@(Employee.IsActive ? $"Delete {@Employee.FirstName}" : $"Activate {@Employee.FirstName}")</button>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private void HandleEnter(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            SearchEmployees();
+        }
+    }
+}

@@ -1,0 +1,95 @@
+﻿@page "/dashboard"
+@using System.Globalization
+@inherits AutoRentRevive.Web.Services.EmployeeService.EmployeeListBase
+
+
+<div class="container-fluid p-4 bg-light">
+    <h3 class="mb-4">Dashboard</h3>
+    <div class="row">
+        <!-- Filter Dropdown -->
+        <div class="col-md-2">
+            <label for="departmentFilter"><strong>Department</strong></label>
+            <select class="form-control">
+                <option>All</option>
+                <option>Marketing</option>
+                <option>Accounts</option>
+                <option>Analytics</option>
+                <option>IT</option>
+                <option>Operations</option>
+                <option>HR</option>
+            </select>
+
+            <!-- Summary Cards -->
+            <div class="mt-4">
+                <div class="mb-2 bg-white p-3 text-center border"><strong>Total Employees</strong><div>@(FilteredEmployees.Count)</div></div>
+                <div class="mb-2 bg-white p-3 text-center border"><strong>Shortlisted Candidates</strong><div>35</div></div>
+                <div class="mb-2 bg-white p-3 text-center border"><strong>Hired Candidates</strong><div>8</div></div>
+                <div class="mb-2 bg-white p-3 text-center border"><strong>Rejected Candidates</strong><div>65</div></div>
+                <div class="mb-2 bg-white p-3 text-center border"><strong>Cost per Hire</strong><div>$17K</div></div>
+                <div class="mb-2 bg-white p-3 text-center border"><strong>Time to Hire (Days)</strong><div>15</div></div>
+                <div class="mb-2 bg-white p-3 text-center border"><strong>Time to Fill (Days)</strong><div>26</div></div>
+            </div>
+        </div>
+
+        <!-- Charts and Stats -->
+        <div class="col-md-10">
+            <div class="row">
+                <!-- Donut Chart Placeholder -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header text-center" style="background-color: #735DA5; color:White"><strong>Open Position by Department</strong></div>
+                        <div class="card-body">
+                            <!-- Replace this with chart component -->
+                            <div class="text-center text-muted">[Donut Chart Here]</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gender Ratio Chart -->
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header text-center" style="background-color: #2E0C4A; color:White"><strong>Gender Ratio</strong></div>
+                        <div class="card-body">
+                            <div class="text-center text-muted">[Gender Donut]</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Offer Acceptance Ratio -->
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h4 class="text-success">72.73%</h4>
+                            <p class="mb-0">Offer Acceptance Ratio</p>
+                            <small>Offers Accepted: <strong>8</strong></small><br />
+                            <small>Offers Provided: <strong>11</strong></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Bar Chart Placeholder -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header text-center" style="background-color: #1E1553; color:White"><strong>Application Received by Source</strong></div>
+                        <div class="card-body">
+                            <div class="text-center text-muted">[Bar Chart Here]</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gauge Chart Placeholder -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header text-center" style="background-color: #2E0C4A; color:White"><strong>Candidate Withdrawal Rate</strong></div>
+                        <div class="card-body">
+                            <div class="text-center text-muted">[Gauge Chart Here]</div>
+                            <div class="text-center mt-2">57.89%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

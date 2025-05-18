@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AutoRentRevive.API.props" />
+</Project>

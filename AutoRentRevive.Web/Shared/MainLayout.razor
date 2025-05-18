@@ -1,0 +1,21 @@
+﻿@using AutoRentRevive.Web.Services
+
+@inherits LayoutComponentBase
+
+<PageTitle>AutoRentRevive.Web</PageTitle>
+
+<div class="page">
+
+    <NavMenu />
+    <main>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+
+@code {
+    private UserInerfaceServiceKeys keys = new UserInerfaceServiceKeys();
+}
