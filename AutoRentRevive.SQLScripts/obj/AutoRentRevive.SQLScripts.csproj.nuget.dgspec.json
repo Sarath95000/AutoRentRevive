@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.SQLScripts\\AutoRentRevive.SQLScripts.csproj": {}
+    "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.SQLScripts\\AutoRentRevive.SQLScripts.csproj": {}
   },
   "projects": {
-    "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.SQLScripts\\AutoRentRevive.SQLScripts.csproj": {
+    "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.SQLScripts\\AutoRentRevive.SQLScripts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.SQLScripts\\AutoRentRevive.SQLScripts.csproj",
+        "projectUniqueName": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.SQLScripts\\AutoRentRevive.SQLScripts.csproj",
         "projectName": "AutoRentRevive.SQLScripts",
-        "projectPath": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.SQLScripts\\AutoRentRevive.SQLScripts.csproj",
+        "projectPath": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.SQLScripts\\AutoRentRevive.SQLScripts.csproj",
         "packagesPath": "C:\\Users\\sarath.s\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.SQLScripts\\obj\\",
+        "outputPath": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.SQLScripts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

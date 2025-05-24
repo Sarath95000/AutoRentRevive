@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SzfCOlxozQkb+KNJ7COTV1g42WvCL3aQyUrapTnat9U=",
+  "Hash": "0NUz4D+wLdhUn2hJrFX91I+kQxcsrAPOxff24LZNH2k=",
   "Source": "AutoRentRevive.Web",
   "BasePath": "_content/AutoRentRevive.Web",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AutoRentRevive.Web\\wwwroot",
       "Source": "AutoRentRevive.Web",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AutoRentRevive.Web.styles.css",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AutoRentRevive.Web.styles.css",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "AutoRentRevive.Web#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "YvX1WrLLOGK3D0qE/qzTXbEioOjIcdxyqamUcot/MMY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AutoRentRevive.Web.styles.css"
+      "OriginalItemSpec": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AutoRentRevive.Web.styles.css"
     },
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AutoRentRevive.Web.bundle.scp.css",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AutoRentRevive.Web.bundle.scp.css",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "AutoRentRevive.Web#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "YvX1WrLLOGK3D0qE/qzTXbEioOjIcdxyqamUcot/MMY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AutoRentRevive.Web.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AutoRentRevive.Web.bundle.scp.css"
     },
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\site.css",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\favicon.png",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\favicon.png",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\MainLogo.png",
+      "Identity": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\MainLogo.png",
       "SourceId": "AutoRentRevive.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
+      "ContentRoot": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\",
       "BasePath": "_content/AutoRentRevive.Web",
       "RelativePath": "MainLogo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -356,7 +356,7 @@
   "Endpoints": [
     {
       "Route": "AutoRentRevive.Web.62h5tuffwm.bundle.scp.css",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AutoRentRevive.Web.bundle.scp.css",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AutoRentRevive.Web.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -377,7 +377,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:26:29 GMT"
+          "Value": "Sat, 24 May 2025 12:55:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -401,7 +401,7 @@
     },
     {
       "Route": "AutoRentRevive.Web.62h5tuffwm.styles.css",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AutoRentRevive.Web.styles.css",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AutoRentRevive.Web.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -422,7 +422,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:26:29 GMT"
+          "Value": "Sat, 24 May 2025 12:55:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -446,7 +446,7 @@
     },
     {
       "Route": "AutoRentRevive.Web.bundle.scp.css",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AutoRentRevive.Web.bundle.scp.css",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AutoRentRevive.Web.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -467,7 +467,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:26:29 GMT"
+          "Value": "Sat, 24 May 2025 12:55:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -483,7 +483,7 @@
     },
     {
       "Route": "AutoRentRevive.Web.styles.css",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AutoRentRevive.Web.styles.css",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AutoRentRevive.Web.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -504,7 +504,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:26:29 GMT"
+          "Value": "Sat, 24 May 2025 12:55:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -520,7 +520,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -565,7 +565,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -602,7 +602,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -647,7 +647,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -684,7 +684,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -729,7 +729,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -766,7 +766,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -811,7 +811,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.eot",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -848,7 +848,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -893,7 +893,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -938,7 +938,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.otf",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -975,7 +975,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1020,7 +1020,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.svg",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1057,7 +1057,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1094,7 +1094,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1139,7 +1139,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.woff",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1176,7 +1176,7 @@
     },
     {
       "Route": "css/open-iconic/FONT-LICENSE",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "Route": "css/open-iconic/FONT-LICENSE.48tmkg660f",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1258,7 +1258,7 @@
     },
     {
       "Route": "css/open-iconic/ICON-LICENSE",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1295,7 +1295,7 @@
     },
     {
       "Route": "css/open-iconic/ICON-LICENSE.4dwjve0o0b",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1340,7 +1340,7 @@
     },
     {
       "Route": "css/open-iconic/README.5bzwdl5l6x.md",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\README.md",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1385,7 +1385,7 @@
     },
     {
       "Route": "css/open-iconic/README.md",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\README.md",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\open-iconic\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1422,7 +1422,7 @@
     },
     {
       "Route": "css/site.a433sinssq.css",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1467,7 +1467,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1504,7 +1504,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\favicon.png",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1549,7 +1549,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\favicon.png",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1586,7 +1586,7 @@
     },
     {
       "Route": "MainLogo.ac99h8k1g3.png",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\MainLogo.png",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\MainLogo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1631,7 +1631,7 @@
     },
     {
       "Route": "MainLogo.png",
-      "AssetFile": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\MainLogo.png",
+      "AssetFile": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Web\\wwwroot\\MainLogo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {

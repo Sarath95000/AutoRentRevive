@@ -1,12 +1,19 @@
 ﻿@using AutoRentRevive.Web.Services
 
+@inject NavigationManager Navigation
 @inherits LayoutComponentBase
 
 <PageTitle>AutoRentRevive.Web</PageTitle>
 
 <div class="page">
 
-    <NavMenu />
+    @if (!(Navigation.ToBaseRelativePath(Navigation.Uri).Equals("home", StringComparison.OrdinalIgnoreCase) || Navigation.ToBaseRelativePath(Navigation.Uri).Equals("Login", StringComparison.OrdinalIgnoreCase)))
+    {
+        <div class="sidebar">
+            <NavMenu />
+        </div>
+    }
+
     <main>
 
         <article class="content px-4">

@@ -121,11 +121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Models\\AutoRentRevive.Models.csproj",
+      "projectUniqueName": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Models\\AutoRentRevive.Models.csproj",
       "projectName": "AutoRentRevive.Models",
-      "projectPath": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Models\\AutoRentRevive.Models.csproj",
+      "projectPath": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Models\\AutoRentRevive.Models.csproj",
       "packagesPath": "C:\\Users\\sarath.s\\.nuget\\packages\\",
-      "outputPath": "D:\\MyProject\\EmployeeManagement\\AutoRentRevive\\AutoRentRevive.Models\\obj\\",
+      "outputPath": "D:\\Check-in\\AutoRentRevive\\AutoRentRevive.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

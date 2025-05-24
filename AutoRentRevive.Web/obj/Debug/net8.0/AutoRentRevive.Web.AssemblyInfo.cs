@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoRentRevive.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3d37bb3aaa21c002e374bea5a76461be0a4c9af")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoRentRevive.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoRentRevive.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
